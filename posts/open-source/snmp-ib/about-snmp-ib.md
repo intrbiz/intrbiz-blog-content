@@ -60,7 +60,7 @@ are designed to be useable from Java 8, without taking a dependency on Java 8.
 
 ## Where can I get it
 
-You can find the code on [Github](https://github.com/intrbiz/SNMP-IB) it is licensed 
+You can find the code on [GitHub](https://github.com/intrbiz/SNMP-IB) it is licensed 
 under the LGPL V3.
 
 
