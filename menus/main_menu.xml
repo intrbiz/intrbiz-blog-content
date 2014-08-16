@@ -1,9 +1,9 @@
 <menu title="Main Menu">
     <menu title="About" link-type="plain" link="/">
-        <content>Intrbiz is the playground of Chris Ellis. Intrbiz is home to a number of Open Source projects. These are mainly developed for fun, the projects are all provided under the GNU General Public License (GPL) V3.</content>
+        <content>Intrbiz is the playground of Chris Ellis.  Home to a number of Open Source projects, which are mainly developed for fun and my random musings / rants about life, the universe and everything.</content>
     </menu>
     <menu title="Open Source" link-type="category" link="open-source">
-        <content>Intrbiz releases a number of its projects as free software</content>
+        <content>Intrbiz is home to a number of my free software projects</content>
     </menu>
     <menu title="Blog" link-type="category" link="blog">
         <content>&quot;something happened which unleashed the power of our imagination.  We learned to talk&quot; - Pink Floyd</content>
