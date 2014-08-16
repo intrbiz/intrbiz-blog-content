@@ -7,12 +7,12 @@ Code: java
 # About SNMP-IB
 
 SNMP-IB is a minimalist non-blocking asynchronous SNMP V1, V2c and V3 client 
-implementation.  It only implements enough to be able to pull information 
-from things.
+implementation.  It implements enough to be able to query information 
+from things and receive traps from things.
 
-I started writing this as a way to get to understand SNMP better, I figured it 
-calls its self simple it can't be that hard.  To an extent getting version 2c 
-implemented was simple - I had a working implementation after an evenings work. 
+I started writing SNMP-IB as a way to get to understand SNMP better, I thought: 
+it calls its self simple it can't be that hard.  To an extent getting version 2c 
+implemented was simple, I had a working implementation after an evenings work. 
 Version 3 took a little longer, mainly getting my head around the bat shit 
 crazy design by committee which is version 3.  I'll post a bit more on this 
 some time.
@@ -22,15 +22,15 @@ the network level and is non-blocking, asynchronous, callback based.  One instan
 (and thread) is capable of efficiently communicating with many devices.
 
 ## What does it support
-SNMP-IB currently offers: Get, GetNext, GetBulk and Set requests for both V1, V2c 
-and V3.  It also support receiving Traps for V1, V2c and V3.
+SNMP-IB currently supports: Get, GetNext, GetBulk and Set requests for both V1, V2c 
+and V3.  It also supports receiving Traps for V1, V2c and V3.
 
 Only the user security model of V3 is supported.  MD5 and SHA1 are supported for 
 authentication and DES (56bit) and AES (128bit) are supported for privacy.
 
 The core code is fairly stable, however it's real world exposure to devices is 
 somewhat limited.  Mainly being tested against 3COM switches, Aerohive access 
-points and older Cisco switches, basically what ever devices I have / have access 
+points and Cisco switches, basically what ever devices I have / have access 
 to.
 
 ## Using SNMP-IB
