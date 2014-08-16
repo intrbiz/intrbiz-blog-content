@@ -1,6 +1,7 @@
 ---
 Author: Chris Ellis
 Date: 2012-09-30
+Category: blog
 ---
 # Shropgeek (R)evolution 2012
 

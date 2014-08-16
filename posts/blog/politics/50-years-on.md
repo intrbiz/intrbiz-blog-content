@@ -1,6 +1,7 @@
 ---
 Author: Chris Ellis
 Date: 2012-10-25
+Category: blog
 ---
 # 50 years on
 
