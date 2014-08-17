@@ -2,6 +2,7 @@
 Author: Chris Ellis
 Date: 2014-08-15
 Category: blog/development
+Code: java
 ---
 # Java 8
 
