@@ -138,3 +138,51 @@ as we can now do:
 
 That makes things a fair bit easier and doesn't have any backwards compatibility 
 problems, quite a clever solution really.
+
+# Nashorn
+
+Nashorn is a new Javascript engine for Java, it is fast and easy to work with.  
+It boasts performance comparable to that of Google's V8 and has the massive 
+advantage of being able to make use of any Java APIs from Javascript, including 
+threading.  Again it makes use of `InvokeDynamic` for performance.  It is 
+usable via the `ScriptEngine` API as well as directly from the command line.
+
+The quickest way to have a play with Nashorn is via `jjs` on the command line:
+
+    jjs> print("Hello World");
+    Hello World
+    jjs> exit();
+
+It isn't that hard to execute a script from Java either:
+
+    // create the script engine
+    ScriptEngineManager factory = new ScriptEngineManager();
+    ScriptEngine script = factory.getEngineByName("nashorn");
+    // execute
+    script.eval("print(\"Hello World\");");
+
+To pass variables into the `ScriptEngine`, we need to setup some bindings:
+
+    SimpleBindings bindings = new SimpleBindings();
+    bindings.put("message", "Hello World");
+    script.setBindings(bindings, ScriptContext.ENGINE_SCOPE);
+
+Variables are contained by a `ScriptEngine` context, and are not shared across 
+different `ScriptEngine` instances, we can change the previous example to:
+
+    // create the script engine
+    ScriptEngineManager factory = new ScriptEngineManager();
+    ScriptEngine script = factory.getEngineByName("nashorn");
+    // bindings
+    SimpleBindings bindings = new SimpleBindings();
+    bindings.put("message", "Hello World");
+    script.setBindings(bindings, ScriptContext.ENGINE_SCOPE);
+    // execute
+    script.eval("print(message);");
+
+As mentioned Nashorn allows Javascript to inter-operate with Java, Javascript 
+can invoke Java methods and Java can invoke Javascript functions.  Nashorn also 
+automatically maps functions to single method interfaces.  For example, we can 
+create a new thread to print `Hello World` twice a second:
+
+    jjs> new java.lang.Thread(function() { while (1) { print("Hello World"); java.lang.Thread.sleep(500); } }).start();
