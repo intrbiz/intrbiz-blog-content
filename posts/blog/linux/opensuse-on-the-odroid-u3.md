@@ -2,7 +2,6 @@
 Author: Chris Ellis
 Date: 2014-10-07
 Category: blog/linux
-Code: bash
 ---
 # openSUSE on the Odroid U3
 
