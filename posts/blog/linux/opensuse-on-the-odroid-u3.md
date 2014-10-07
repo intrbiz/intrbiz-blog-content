@@ -1,6 +1,6 @@
 ---
 Author: Chris Ellis
-Date: 2014-10-06
+Date: 2014-10-07
 Category: blog/linux
 Code: bash
 ---
