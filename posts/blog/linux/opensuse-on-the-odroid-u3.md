@@ -160,5 +160,14 @@ Any issues and I can probably give you a hand in the #suse IRC channel or tweet 
 
 ## TL; DR
 
-I'll upload my image shortly.
+Download my image: [odroid_u3_opensuse_131.img.xz](http://files.intrbiz.net/odroid/odroid_u3_opensuse_131.img.xz).  
+The image is around 4GiB uncompressed and the SHA256 hash is `96a236f7779d08f1cba25a91ef6375f0b000eafb94e2018ec8a9ace67e995272`.
 
+The extract and flash to your SD card:
+
+    buildhost:~/ # xz -d odroid_u3_opensuse_131.img.xz
+    buildhost:~/ # dd if=./odroid_u3_opensuse_131.img of=/dev/sdb bs=32M
+
+Note: make sure `/dev/sdb` is the SD card you want to write to, check `dmesg` if need be.
+
+Plug in, power up and enjoy openSUSE on your Odroid U3.
