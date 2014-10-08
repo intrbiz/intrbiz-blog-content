@@ -160,7 +160,7 @@ Any issues and I can probably give you a hand in the #suse IRC channel or tweet 
 
 ## TL; DR
 
-Download my image: [odroid_u3_opensuse_131.img.xz](http://files.intrbiz.net/odroid/odroid_u3_opensuse_131.img.xz).  
+Download my image: [odroid_u3_opensuse_131.img.xz](http://files.intrbiz.net/odroid/odroid_u3_opensuse_131.img.xz).
 The image is around 4GiB uncompressed and the SHA256 hash is `96a236f7779d08f1cba25a91ef6375f0b000eafb94e2018ec8a9ace67e995272`.
 
 The extract and flash to your SD card:
