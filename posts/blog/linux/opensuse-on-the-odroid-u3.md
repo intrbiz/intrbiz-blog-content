@@ -155,7 +155,8 @@ Nore: your liable to get odd errors from the SD card if you fail to set `bs`, a 
 block seemed the fastest for me.
 
 Now you should be able to boot your Odroid U3 into openSUSE 13.1 (console).  Once 
-booted you can use the zypper to update any RPMs or to install a GUI.
+booted you can use the zypper to update any RPMs or to install a GUI.  The root 
+password is `linux`.  Note that SSH is enabled by default.
 
 It is worth noting, that the I/O performance of cheap SD cards is pretty terrible
 (or at least this is true for SD card one I have), remember to be patient.
@@ -174,4 +175,5 @@ The extract and flash to your SD card:
 
 Note: make sure `/dev/sdb` is the SD card you want to write to, check `dmesg` if need be.
 
-Plug in, power up and enjoy openSUSE on your Odroid U3.
+Plug in, power up and enjoy openSUSE on your Odroid U3.  The root password is
+`linux`, note that SSH is enabled by default.
