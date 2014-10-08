@@ -145,6 +145,8 @@ Finally, we can unmount and flash the image
     buildhost:~/ # sync
     buildhost:~/ # umount tmp_root
     buildhost:~/ # umount tmp_boot
+    buildhost:~ # kpartx -d /dev/loop0
+    buildhost:~ # losetup -d /dev/loop0
     buildhost:~/ # dd if=./custom_opensuse.img of=/dev/sdb bs=32M
 
 Note: make sure `/dev/sdb` is the SD card you want to write to, check `dmesg` if need be.
