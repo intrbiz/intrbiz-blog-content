@@ -9,6 +9,8 @@ A while back I got an [Odroid U3](http://hardkernel.com/main/products/prdt_info.
 an ARM based single board computer, much like the Raspberry PI, only a lot more 
 powerful - the Odroid U3, has a quad core 1.7GHz ARM CPU and 2GB RAM.
 
+![The Odroid U3](/resources/odroid_u3.jpg)
+
 However only images for xubuntu are provided officially, being an openSUSE user 
 I wanted to run openSUSE on the Odroid U3.  I managed to hack together an image 
 a few months back, but sadly didn't really document how I did it, rather silly 
