@@ -19,7 +19,7 @@ given the experience as a present.
 
 All beer starts off with malt, malted barley to be precise.
 
-![Starting with malt](/resources/to_start_with.jpg)
+![Starting with malt](/resources/brew/to_start_with.jpg)
 
 Our first order of the day was to mash 300kg of malted barley with around 
 four barrels (a barrel is 147l) of water at 71c in the mash tun.  The mash is 
@@ -35,14 +35,14 @@ of chocolate malt.  We were brewing an amber ale which had 25kg of caramalt in
 it.  There is also a small proportion of Wheat added, this helps in forming the 
 head of the beer.
 
-![Feeding in the malt](/resources/feeding_in_the_malt_1.jpg)
-![Feeding in the malt](/resources/feeding_in_the_malt_2.jpg)
+![Feeding in the malt](/resources/brew/feeding_in_the_malt_1.jpg)
+![Feeding in the malt](/resources/brew/feeding_in_the_malt_2.jpg)
 
 This involved loading 300kg of malt into the mash tun, in 25kg sacks.  Each sack 
 had to be lugged up a ladder and poured in to a hopper.  The hopper helps to 
 evenly mix the malt with the hot water.
 
-![Breakfast beer](/resources/breakfast_beer.jpg)
+![Breakfast beer](/resources/brew/breakfast_beer.jpg)
 
 The mash is left for 1 hour to steep, giving us time for breakfast and a beer.
 
@@ -62,8 +62,8 @@ prepare the hops.  After malt, hops is the other key ingredient in beer,
 providing all the bittering and aroma.  Different varieties of hops and hops 
 from different climbs vary in the level of bitterness and in aroma.
 
-![Hops hops hops](/resources/hops_hops_hops.jpg)
-![Hops and more hops](/resources/hops_more_hops.jpg)
+![Hops hops hops](/resources/brew/hops_hops_hops.jpg)
+![Hops and more hops](/resources/brew/hops_more_hops.jpg)
 
 The hops came vacuum packed, so we needed to flake the hops whilst weighting it.
 It was surprising how sticky our hands were after this, covered in a kind of 
@@ -75,8 +75,8 @@ With all the wort extracted from the mash, it was time to empty the mash tun.
 That involved shovelling out 300kg of wet barley into sacks.  Not particularly 
 glamorous and a bit of hard work, but fun all the same.
 
-![Emptying the mash tun](/resources/emptying_the_mash_tun_1.jpg)
-![Emptying the mash tun](/resources/emptying_the_mash_tun_3.jpg)
+![Emptying the mash tun](/resources/brew/emptying_the_mash_tun_1.jpg)
+![Emptying the mash tun](/resources/brew/emptying_the_mash_tun_3.jpg)
 
 With the mash tun empty and the wort busy getting up to boiling point, it was
 time to sit down and relax over lunch, and some more beer.
@@ -89,7 +89,7 @@ while) adds bitterness to the beer.  Hops added late on adds aroma to the beer.
 We were brewing a golden beer, which had about 3kg of bittering hops added early
 on and 5kg of aroma hops added late on.
 
-![Adding the hops](/resources/adding_the_hops_1.jpg)
+![Adding the hops](/resources/brew/adding_the_hops_1.jpg)
 
 The brew house was filled with a wonderful aroma when the hops was added.
 
@@ -105,7 +105,7 @@ fermentation vessel.  Cold water is pumped through the other channel of the heat
 exchanger.  This results in a quickly cooled wort at 20c and hot water at 71c 
 ready for the following days brew.
 
-![Adding the yeast](/resources/adding_the_yeast.jpg)
+![Adding the yeast](/resources/brew/adding_the_yeast.jpg)
 
 The final and somewhat critical step is to add the yeast.
 
@@ -113,7 +113,7 @@ The last and by far the least enviable task is to clean out the kettle,
 thankfully we were spared that job.  To be honest I'm not sure I'd be able to 
 get in through the opening to clean it out.
 
-![Glad I'm not cleaning that](/resources/glad_im_not_cleaning_that.jpg)
+![Glad I'm not cleaning that](/resources/brew/glad_im_not_cleaning_that.jpg)
 
 ## Pulling my first pint
 
@@ -122,7 +122,7 @@ beer.  With the yeast bubbling away in the fermentation vessel, we retired to
 the bar for a farewell pint and I got chance to pull my first pint (well a half 
 actually)
 
-![Pulling my first pint](/resources/pulling_my_first_pint.jpg)
+![Pulling my first pint](/resources/brew/pulling_my_first_pint.jpg)
 
 All in all, I had a wonderful day, it was fun all around and I learnt a fair 
 bit too.  The people at Sadler's Ales were really friendly and made it an 
