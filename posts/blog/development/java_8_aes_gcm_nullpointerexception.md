@@ -1,5 +1,6 @@
-Date: 2014-12-09
+---
 Author: Chris Ellis
+Date: 2014-12-09
 Category: blog/development
 Code: java
 ---
