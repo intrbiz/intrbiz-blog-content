@@ -111,5 +111,8 @@ When you think it through, it seems acceptable and within the definition of the
 implicit contract that, calling `restore()` when no state is saved, it should 
 be a no-op.
 
+Interestingly I've not been able to reproduce this bug using a blocking I/O 
+client.
+
 Now to hope OpenJDK / Oracle include my somewhat minor patches into Java 8 to 
 address this bug :)
