@@ -1,7 +1,7 @@
 ---
 Author: Chris Ellis
 Date: 2014-10-07
-Category: blog/linux
+Category: blog/hardware
 ---
 # openSUSE on the Odroid U3
 
