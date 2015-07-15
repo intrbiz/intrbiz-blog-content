@@ -17,17 +17,17 @@ to deploy anything.
 
 As an example of this, a number of RabbitMQ checks are provided in the default 
 Bergamot Monitoring site configuration templates.  These checks use a Javascript 
-snippet within te command definition to define the logic of the check.  The check 
-make a call to the RabbitMQ HTTP REST API, which returns a JSON response.  This 
+snippet within the command definition to define the logic of the check.  The check 
+makes a call to the RabbitMQ HTTP REST API, which returns a JSON response.  This 
 JSON is then parsed (just like you would in the browser) and the logic implemented.
 
-Obviously this technique can be used to implement a who raft of checks, especially 
+Obviously this technique can be used to implement a whole raft of checks, especially 
 with the growing number of things which provide a HTTP API.
 
 ## Implementing A Check
 
 So, lets look at how we implement a check.  The following is the definition of a 
-command to check the number of active connection which are connected to a RabbitMQ 
+command to check the number of active connections which are connected to a RabbitMQ 
 server.
 
         <command name="rabbitmq_active_connections" extends="http_script_check">
@@ -89,7 +89,7 @@ No doubt the above block of XML configuration is somewhat bewildering at first g
 it down.  For the purpose of this article, we will only look at the code defined in the script parameter.
 
 First off, the script starts with some basic validation, the following lines simply require that a parameter 
-value if specified.
+value is specified.
 
     bergamot.require('host');
     bergamot.require('port');
@@ -112,7 +112,7 @@ When constructing the HTTP request, parameters are fetched using:
     check.getIntParameter('port')
 
 Once the HTTP request is defined, it is executed asynchonously.  One of two functions will be called back 
-then the request is complete.  The first function defines the on success callback, the second the on error 
+when the request is complete.  The first function defines the on success callback, the second the on error 
 callback.
 
     .execute(
