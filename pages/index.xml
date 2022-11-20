@@ -11,24 +11,12 @@
         </ul>
     </div>
     <div class="post">
-        <h2>Welcome to Intrbiz, IT consultancy for Open Source Software</h2>
+        <h2>Hey, I'm Chris</h2>
         <p>
-            We are a small independent IT consultancy specialising in a range of Open Source software.  We've been working with Open Source software for over a decade and have extensive experience of:
-        </p>
-        <ul>
-            <li>PostgreSQL</li>
-            <li>Linux</li>
-            <li>Apache</li>
-            <li>Nagios</li>
-        </ul>
-        <p>
-            Our primary expertese is around PostgreSQL, having utilised and deployed PostgreSQL for many different applications.  Including using PL/Proxy to build heavily sharded PostgreSQL database clusters, targeted at write and read scaling.  We've routinely worked with multi-terrabyte databases with demanding and complex ETL setups.  We have extensive experience of devloping applications with PostgreSQL, performance tuning and day to day database administration.
+            Welcome to my little space of the web.
         </p>
         <p>
-            We are also the lead developers of <a href="https://bergamot-monitoring.org/">Bergamot Monitoring</a> a distributed infrastructure monitoring solution with an easy migration path from Nagios.
-        </p>
-        <p>
-            Bergamot Monitoring provides a scalable monitoring solution capable of handling the complexities of modern world, where infrastructure can be on-premise and/or in the cloud.  Bergamot Monitoring provides a modern, real time user interface, with zero downtime configuration changes.  The distributed nature of Bergamot Monitoring create a highly robust solution, requiring minimal downtime and a scalable platform which can grow as you do.
+            This place hasn't had much attention for a while, but I'm getting back into updating it over the next few weeks.
         </p>
     </div>
 </fragment>

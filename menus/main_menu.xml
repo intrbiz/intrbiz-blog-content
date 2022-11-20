@@ -1,6 +1,6 @@
 <menu title="Main Menu">
     <menu title="About" link-type="plain" link="/">
-        <content>Intrbiz is the lead developer of Bergamot Monitoring and provides consultancy services for a range of Open Source software.</content>
+        <content>I'm Chris, an engineer with a focus on Open Source, especially PostgreSQL, Java, Linux.</content>
     </menu>
     <menu title="Open Source" link-type="category" link="open-source">
         <content>Intrbiz is home to a number of my free software projects</content>
@@ -10,7 +10,7 @@
     </menu>
     <menu title="Contact" link-type="plain-menu" link="/contact">
         <content>There are many ways to keep talking</content>
-        <menu title="Twitter @intrbiz" link-type="plain" link="https://twitter.com/intrbiz/">
+        <menu title="Mastodon @intrbiz@bergamot.social" link-type="plain" link="https://bergamot.social/web/@intrbiz">
             <content></content>
         </menu>
     </menu>
